@@ -47,6 +47,7 @@
 
 use strict ;
 use warnings ;
+use utf8 ;
 
 use File::stat;
 use Time::localtime;
@@ -250,7 +251,7 @@ print "Right: $right " ;
 print "Bottom: $bottom " ;
 print "Top: $top\n" ;
 
-open ($html_file, ">", $html_name) ;
+open ($html_file, ">:utf8", $html_name) ;
 
 print_html_header () ;
 
@@ -889,7 +890,7 @@ sub read_file {
 	my $file ;
 
 	print "reading file $name...\n" ;
-	open ($file, , "<", $name) ;
+	open ($file, , "<:utf8", $name) ;
 
 	while(my $line = <$file>) {
 		if($line =~ /^\s*\<way/) {

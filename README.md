@@ -4,17 +4,16 @@
 
 Before:
 
-[ ] Choose an area depending on number of participants and time.
-[ ] Decide on a date. Friday evening is recommended.
-[ ] Make a pie.
-[ ] Prepare pie for uploading to MapCraft and upload it.
+* [ ] Choose an area depending on number of participants and time.
+* [ ] Decide on a date. Friday evening is recommended.
+* [ ] Make a pie.
+* [ ] Prepare pie for uploading to MapCraft and upload it.
 
 After:
 
-[ ] Create before-after animation
-[ ] Create a diff image and HTML
-[ ] Filter images and create a progress video
-
+* [ ] Create before-after animation
+* [ ] Create a diff image and HTML
+* [ ] Filter images and create a progress video
 
 ## Diff visualization
 
